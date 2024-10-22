@@ -1989,3 +1989,39 @@
       Min: 1
       Max: 2
       PotencyDivisor: 40
+- type: seed
+  id: spaceshroomPlant
+  name: seeds-spaceshroom-name
+  noun: seeds-noun-spores
+  displayName: seeds-spaceshroom-display-name
+  plantRsi: Objects/Specific/Hydroponics/chanterelle.rsi
+  packetPrototype: SpaceshroomSeeds
+  productPrototypes:
+    - FoodSpaceshroom
+  lifespan: 35
+  maturation: 10
+  production: 7
+  yield: 5
+  potency: 1
+  growthStages: 3
+  lightTolerance: 6
+  waterConsumption: 0.60
+  nutrientConsumption: 0.50
+  idealHeat: 288
+  chemicals:
+    SpaceDrugs:
+      Min: 1
+      Max: 10
+      PotencyDivisor: 25
+    Ephedrine:
+      Min: 1
+      Max: 10
+      PotencyDivisor: 25
+    Lexorin:
+      Min: 1
+      Max: 10
+      PotencyDivisor: 25
+    Amatoxin:
+      Min: 1
+      Max: 10
+      PotencyDivisor: 25

@@ -735,3 +735,14 @@
       seedId: anomalyBerry
     - type: Sprite
       sprite: Objects/Specific/Hydroponics/anomaly_berry.rsi
+
+- type: entity
+  parent: SeedBase
+  name: packet of spaceshroom spores
+  id: SpaceshroomSeeds
+  description: "Locally sourced from maintenaince floors!"
+  components:
+    - type: Seed
+      seedId: spaceshroom
+    - type: Sprite
+      sprite: Objects/Specific/Hydroponics/chanterelle.rsi
