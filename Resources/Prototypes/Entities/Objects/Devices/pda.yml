@@ -99,6 +99,8 @@
         type: InstrumentBoundUserInterface
       enum.HealthAnalyzerUiKey.Key:
         type: HealthAnalyzerBoundUserInterface
+      enum.WiresUiKey.Key:
+        type: WiresBoundUserInterface
   - type: Tag
     tags:
     - DoorBumpOpener
@@ -113,6 +115,11 @@
     proto: robot
   - type: Speech
     speechVerb: Robotic
+  - type: WiresPanel
+  - type: Wires
+    boardName: wires-board-name-vendingmachine
+    layoutId: Pda
+  - type: WiresVisuals
 
 - type: entity
   parent: BasePDA

@@ -189,3 +189,12 @@
   wires:
   - !type:PowerWireAction
   - !type:AiInteractWireAction
+
+- type: wireLayout
+  id: Pda
+  wires:
+  - !type:PowerWireAction
+  - !type:LightWireAction
+  - !type:IdWireAction
+  - !type:SpeakerWireAction
+  - !type:DebugModeWireAction
