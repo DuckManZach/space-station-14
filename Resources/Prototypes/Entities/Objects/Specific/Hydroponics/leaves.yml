@@ -11,6 +11,9 @@
   - type: Produce
     seedId: cannabis
   - type: Food
+  - type: Tag
+    tags:
+      - Leaf
   - type: SolutionContainerManager
     solutions:
       food:
@@ -79,6 +82,9 @@
   - type: PointLight
     radius: 1.5
     energy: 2
+  - type: Tag
+    tags:
+      - Leaf
   - type: RgbLightController
     cycleRate: 0.6
   - type: SolutionContainerManager
@@ -171,6 +177,9 @@
     sprite: Objects/Specific/Hydroponics/tea_plant.rsi
   - type: Produce
     seedId: teaPlant
+  - type: Tag
+    tags:
+      - Leaf
   - type: SolutionContainerManager
     solutions:
       food:
@@ -202,6 +211,9 @@
   components:
   - type: Sprite
     sprite: Objects/Specific/Hydroponics/tobacco.rsi
+  - type: Tag
+    tags:
+      - Leaf
   - type: Produce
     seedId: tobacco
 

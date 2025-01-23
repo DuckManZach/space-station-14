@@ -37,3 +37,11 @@
   parent: BaseHydroToolRecipe
   id: HydroponicsToolClippers
   result: HydroponicsToolClippers
+
+- type: latheRecipe
+  parent: BaseToolRecipe
+  id: Cigarette
+  result: Cigarette
+  materials:
+    Cloth: 1
+    

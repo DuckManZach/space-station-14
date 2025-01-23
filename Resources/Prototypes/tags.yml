@@ -196,6 +196,12 @@
   id: CaneBlade
 
 - type: Tag
+  id: Leaf
+
+- type: Tag
+  id: DriedLeaf
+
+- type: Tag
   id: CannonBall
 
 - type: Tag
