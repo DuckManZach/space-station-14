@@ -67,6 +67,7 @@
       Active: camera
       Disabled: camera_off
       InUse: camera_in_use
+      AIUse: camera_in_use
   - type: UserInterface
     interfaces:
       enum.SurveillanceCameraSetupUiKey.Camera:
